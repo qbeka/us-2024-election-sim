@@ -1,0 +1,39 @@
+.usmap-container {
+    position: relative;
+    width: 95%;  
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .state-popup {
+    position: absolute;
+    top: 4.5rem;
+    right: -1.7rem;
+    padding: 0.75rem 1rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(5px);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 4px 4px 6px rgba(0,0,0,0.2);
+    font-size: 0.9rem;
+    max-width: 220px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+  }
+  
+  .popup-close-btn {
+    align-self: flex-end;
+    background: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: #333;
+    margin-bottom: 0rem; 
+  }
+  
+  .state-popup strong {
+    font-size: 1rem;
+  }
+  
